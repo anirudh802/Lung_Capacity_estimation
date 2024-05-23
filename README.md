@@ -33,3 +33,7 @@ After training the models. it can be seen that model2 i.e the neurl net trained 
 After all the models have been saved
 
 ### Running the model
+To run the model, simply clone the repository and run the run.py file
+
+### Model in action
+![img](https://github.com/anirudh802/Lung_Capacity_estimation/blob/main/Screenshot%20from%202024-05-23%2018-59-32.png)
