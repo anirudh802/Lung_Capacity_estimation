@@ -18,16 +18,16 @@ After cleaning and preprocessing the dataset, it was time to traing out model
 
 ### Training the model
 
-Now came the training of the models. For this i trained 3 models
-1. A linear regression model with all parameters \n 
-    This was the most simple approach and it gave an mae of about 65\n 
-2. A neural network with all parameters  \n
-    In this model l2 regularisation was used to prevent overfitting.\n
-    This model has 2 hidden layers of size 6 and 8 respectively.\n
-    It achieved an mae of 55\n
-4. A neural network with selected parameters\n
-    this model also uses the same architecture but with the selected features\n
-    It achieved an mae of 60.\n
+Now came the training of the models. For this i trained 3 models 
+1. A linear regression model with all parameters 
+    This was the most simple approach and it gave an mae of about 65 
+2. A neural network with all parameters  
+    In this model l2 regularisation was used to prevent overfitting.
+    This model has 2 hidden layers of size 6 and 8 respectively.
+    It achieved an mae of 55
+4. A neural network with selected parameters
+    this model also uses the same architecture but with the selected features
+    It achieved an mae of 60.
 
 After training the models. it can be seen that model2 i.e the neurl net trained on all the params works the best and hass the least training and validation loss.
 After all the models have been saved
